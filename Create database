@@ -1,0 +1,9 @@
+INPUT
+SET SQL_SAFE_UPDATES=0;
+CREATE DATABASE study;
+use study;
+create table student(sno int(10),name varchar(10),subject char(10),mark int(10));
+insert into student values (1,'suji','maths',100);
+insert into student values (2,'harinika','physics',100);
+insert into student values (3,'reshma','chemistry',100);
+select*from student;
