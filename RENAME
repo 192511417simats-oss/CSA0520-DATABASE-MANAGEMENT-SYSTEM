@@ -1,0 +1,11 @@
+INPUT:
+SET SQL_SAFE_UPDATES = 0;
+use girl;
+drop table if exists lucky;
+create table lucky(ID int,Name varchar(50),age int,course varchar(50));
+insert into lucky values(1,'suji',18,'dbms');
+insert into lucky values(2,'harinika',17,'AI');
+insert into lucky values(3,'rehma',18,'maths');
+select*from lucky;
+drop table lucky;
+rename table lucky to student;
